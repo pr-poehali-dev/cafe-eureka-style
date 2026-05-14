@@ -18,8 +18,37 @@ export default {
 				'2xl': '1400px'
 			}
 		},
+		fontFamily: {
+			cormorant: ['Cormorant Garamond', 'serif'],
+			montserrat: ['Montserrat', 'sans-serif'],
+		},
 		extend: {
 			colors: {
+				gold: {
+					50:  '#fdf9f0',
+					100: '#f9efcf',
+					200: '#f2d98a',
+					300: '#e8c04a',
+					400: '#d4a017',
+					500: '#b8860b',
+					600: '#9a6f09',
+					700: '#7a5607',
+					800: '#5c4005',
+					900: '#3d2a03',
+				},
+				ebony: {
+					50:  '#f5f4f0',
+					100: '#e8e5db',
+					200: '#ccc6b2',
+					300: '#aba487',
+					400: '#8a8060',
+					500: '#6e6448',
+					600: '#564e37',
+					700: '#3d3826',
+					800: '#252218',
+					900: '#130f0b',
+					950: '#0a0806',
+				},
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
